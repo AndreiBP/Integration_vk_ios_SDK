@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework

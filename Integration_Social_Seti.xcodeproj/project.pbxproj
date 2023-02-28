@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099B0F959B66CA0AC6ADAF01 /* Pods_Integration_Social_Seti.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3901E8D7095CFED8BC48FDAC /* Pods_Integration_Social_Seti.framework */; };
+		720E750B2922A8D4003E89AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E750A2922A8D4003E89AF /* AppDelegate.swift */; };
+		720E750D2922A8D4003E89AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E750C2922A8D4003E89AF /* SceneDelegate.swift */; };
+		720E750F2922A8D4003E89AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720E750E2922A8D4003E89AF /* ViewController.swift */; };
+		720E75122922A8D4003E89AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E75102922A8D4003E89AF /* Main.storyboard */; };
+		720E75142922A8D5003E89AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720E75132922A8D5003E89AF /* Assets.xcassets */; };
+		720E75172922A8D5003E89AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E75152922A8D5003E89AF /* LaunchScreen.storyboard */; };
+		722D48A729819EF3005581B2 /* ViewControllerVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48A629819EF3005581B2 /* ViewControllerVK.swift */; };
+		722D48A929850FB7005581B2 /* ViewControllerMyFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48A829850FB7005581B2 /* ViewControllerMyFoto.swift */; };
+		722D48AB29851197005581B2 /* CollectionViewCellMyFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48AA29851197005581B2 /* CollectionViewCellMyFoto.swift */; };
+		722D48AD2985129D005581B2 /* ViewControllerFotoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48AC2985129D005581B2 /* ViewControllerFotoUser.swift */; };
+		722D48AF298516FC005581B2 /* VKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48AE298516FC005581B2 /* VKModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D5E695192DF83052D4258FD /* Pods-Integration_Social_Seti.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Integration_Social_Seti.debug.xcconfig"; path = "Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti.debug.xcconfig"; sourceTree = "<group>"; };
+		3901E8D7095CFED8BC48FDAC /* Pods_Integration_Social_Seti.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Integration_Social_Seti.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		720E75072922A8D4003E89AF /* Integration_Social_Seti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Integration_Social_Seti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		720E750A2922A8D4003E89AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		720E750C2922A8D4003E89AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		720E750E2922A8D4003E89AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		720E75112922A8D4003E89AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		720E75132922A8D5003E89AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		720E75162922A8D5003E89AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		720E75182922A8D5003E89AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722D48A629819EF3005581B2 /* ViewControllerVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVK.swift; sourceTree = "<group>"; };
+		722D48A829850FB7005581B2 /* ViewControllerMyFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyFoto.swift; sourceTree = "<group>"; };
+		722D48AA29851197005581B2 /* CollectionViewCellMyFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellMyFoto.swift; sourceTree = "<group>"; };
+		722D48AC2985129D005581B2 /* ViewControllerFotoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFotoUser.swift; sourceTree = "<group>"; };
+		722D48AE298516FC005581B2 /* VKModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKModel.swift; sourceTree = "<group>"; };
+		9A601EF15FF2B9888B87FEE4 /* Pods-Integration_Social_Seti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Integration_Social_Seti.release.xcconfig"; path = "Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		720E75042922A8D4003E89AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099B0F959B66CA0AC6ADAF01 /* Pods_Integration_Social_Seti.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61173CB978488460E240ECBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3901E8D7095CFED8BC48FDAC /* Pods_Integration_Social_Seti.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		720E74FE2922A8D4003E89AF = {
+			isa = PBXGroup;
+			children = (
+				720E75092922A8D4003E89AF /* Integration_Social_Seti */,
+				720E75082922A8D4003E89AF /* Products */,
+				8D2F358BC1C3C5704B6BAB70 /* Pods */,
+				61173CB978488460E240ECBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		720E75082922A8D4003E89AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				720E75072922A8D4003E89AF /* Integration_Social_Seti.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		720E75092922A8D4003E89AF /* Integration_Social_Seti */ = {
+			isa = PBXGroup;
+			children = (
+				720E750A2922A8D4003E89AF /* AppDelegate.swift */,
+				720E750C2922A8D4003E89AF /* SceneDelegate.swift */,
+				720E750E2922A8D4003E89AF /* ViewController.swift */,
+				722D48A629819EF3005581B2 /* ViewControllerVK.swift */,
+				722D48A829850FB7005581B2 /* ViewControllerMyFoto.swift */,
+				722D48AA29851197005581B2 /* CollectionViewCellMyFoto.swift */,
+				722D48AC2985129D005581B2 /* ViewControllerFotoUser.swift */,
+				722D48AE298516FC005581B2 /* VKModel.swift */,
+				720E75102922A8D4003E89AF /* Main.storyboard */,
+				720E75132922A8D5003E89AF /* Assets.xcassets */,
+				720E75152922A8D5003E89AF /* LaunchScreen.storyboard */,
+				720E75182922A8D5003E89AF /* Info.plist */,
+			);
+			path = Integration_Social_Seti;
+			sourceTree = "<group>";
+		};
+		8D2F358BC1C3C5704B6BAB70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D5E695192DF83052D4258FD /* Pods-Integration_Social_Seti.debug.xcconfig */,
+				9A601EF15FF2B9888B87FEE4 /* Pods-Integration_Social_Seti.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		720E75062922A8D4003E89AF /* Integration_Social_Seti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720E751B2922A8D5003E89AF /* Build configuration list for PBXNativeTarget "Integration_Social_Seti" */;
+			buildPhases = (
+				B94739431BB8810F30841D7B /* [CP] Check Pods Manifest.lock */,
+				720E75032922A8D4003E89AF /* Sources */,
+				720E75042922A8D4003E89AF /* Frameworks */,
+				720E75052922A8D4003E89AF /* Resources */,
+				99686B0B449BC6148F7F2248 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Integration_Social_Seti;
+			productName = Integration_Social_Seti;
+			productReference = 720E75072922A8D4003E89AF /* Integration_Social_Seti.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		720E74FF2922A8D4003E89AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					720E75062922A8D4003E89AF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 720E75022922A8D4003E89AF /* Build configuration list for PBXProject "Integration_Social_Seti" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 720E74FE2922A8D4003E89AF;
+			productRefGroup = 720E75082922A8D4003E89AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				720E75062922A8D4003E89AF /* Integration_Social_Seti */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		720E75052922A8D4003E89AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720E75172922A8D5003E89AF /* LaunchScreen.storyboard in Resources */,
+				720E75142922A8D5003E89AF /* Assets.xcassets in Resources */,
+				720E75122922A8D4003E89AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99686B0B449BC6148F7F2248 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94739431BB8810F30841D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Integration_Social_Seti-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		720E75032922A8D4003E89AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722D48AD2985129D005581B2 /* ViewControllerFotoUser.swift in Sources */,
+				720E750F2922A8D4003E89AF /* ViewController.swift in Sources */,
+				722D48AF298516FC005581B2 /* VKModel.swift in Sources */,
+				722D48A729819EF3005581B2 /* ViewControllerVK.swift in Sources */,
+				722D48A929850FB7005581B2 /* ViewControllerMyFoto.swift in Sources */,
+				720E750B2922A8D4003E89AF /* AppDelegate.swift in Sources */,
+				722D48AB29851197005581B2 /* CollectionViewCellMyFoto.swift in Sources */,
+				720E750D2922A8D4003E89AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		720E75102922A8D4003E89AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720E75112922A8D4003E89AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		720E75152922A8D5003E89AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720E75162922A8D5003E89AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		720E75192922A8D5003E89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		720E751A2922A8D5003E89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		720E751C2922A8D5003E89AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D5E695192DF83052D4258FD /* Pods-Integration_Social_Seti.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ9ZJQTQNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Integration_Social_Seti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Balobanov.Integration-Social-Seti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		720E751D2922A8D5003E89AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A601EF15FF2B9888B87FEE4 /* Pods-Integration_Social_Seti.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SQ9ZJQTQNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Integration_Social_Seti/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrei-Balobanov.Integration-Social-Seti";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		720E75022922A8D4003E89AF /* Build configuration list for PBXProject "Integration_Social_Seti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720E75192922A8D5003E89AF /* Debug */,
+				720E751A2922A8D5003E89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720E751B2922A8D5003E89AF /* Build configuration list for PBXNativeTarget "Integration_Social_Seti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720E751C2922A8D5003E89AF /* Debug */,
+				720E751D2922A8D5003E89AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 720E74FF2922A8D4003E89AF /* Project object */;
+}

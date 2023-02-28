@@ -1,0 +1,6 @@
+framework module Pods_Integration_Social_Seti {
+  umbrella header "Pods-Integration_Social_Seti-umbrella.h"
+
+  export *
+  module * { export * }
+}

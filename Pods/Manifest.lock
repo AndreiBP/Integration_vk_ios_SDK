@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.3)
+  - SwiftyJSON (5.0.1)
+  - VK-ios-sdk (1.6.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftyJSON
+  - VK-ios-sdk
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftyJSON
+    - VK-ios-sdk
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  VK-ios-sdk: 21091f214d271a74b3a3313ec62d1c4da98ce00f
+
+PODFILE CHECKSUM: 4fbc4244645d1bb5f9f6ec9be53e10de7050d5f3
+
+COCOAPODS: 1.11.3
