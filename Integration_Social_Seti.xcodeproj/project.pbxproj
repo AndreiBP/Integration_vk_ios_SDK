@@ -14,11 +14,11 @@
 		720E75122922A8D4003E89AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E75102922A8D4003E89AF /* Main.storyboard */; };
 		720E75142922A8D5003E89AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720E75132922A8D5003E89AF /* Assets.xcassets */; };
 		720E75172922A8D5003E89AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720E75152922A8D5003E89AF /* LaunchScreen.storyboard */; };
-		722D48A729819EF3005581B2 /* ViewControllerVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48A629819EF3005581B2 /* ViewControllerVK.swift */; };
-		722D48A929850FB7005581B2 /* ViewControllerMyFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48A829850FB7005581B2 /* ViewControllerMyFoto.swift */; };
-		722D48AB29851197005581B2 /* CollectionViewCellMyFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48AA29851197005581B2 /* CollectionViewCellMyFoto.swift */; };
-		722D48AD2985129D005581B2 /* ViewControllerFotoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48AC2985129D005581B2 /* ViewControllerFotoUser.swift */; };
-		722D48AF298516FC005581B2 /* VKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D48AE298516FC005581B2 /* VKModel.swift */; };
+		72100F0829B4B9B700F40978 /* ViewControllerVK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72100F0729B4B9B700F40978 /* ViewControllerVK.swift */; };
+		72100F0A29B4B9DB00F40978 /* ViewControllerMyFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72100F0929B4B9DB00F40978 /* ViewControllerMyFoto.swift */; };
+		72100F0C29B4BA1800F40978 /* CollectionViewCellFotoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72100F0B29B4BA1800F40978 /* CollectionViewCellFotoUser.swift */; };
+		72100F0E29B4BA2900F40978 /* VKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72100F0D29B4BA2900F40978 /* VKModel.swift */; };
+		72100F1029B4BCD400F40978 /* ViewControllerFotoUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72100F0F29B4BCD400F40978 /* ViewControllerFotoUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +32,11 @@
 		720E75132922A8D5003E89AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720E75162922A8D5003E89AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		720E75182922A8D5003E89AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		722D48A629819EF3005581B2 /* ViewControllerVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVK.swift; sourceTree = "<group>"; };
-		722D48A829850FB7005581B2 /* ViewControllerMyFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyFoto.swift; sourceTree = "<group>"; };
-		722D48AA29851197005581B2 /* CollectionViewCellMyFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellMyFoto.swift; sourceTree = "<group>"; };
-		722D48AC2985129D005581B2 /* ViewControllerFotoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFotoUser.swift; sourceTree = "<group>"; };
-		722D48AE298516FC005581B2 /* VKModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKModel.swift; sourceTree = "<group>"; };
+		72100F0729B4B9B700F40978 /* ViewControllerVK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerVK.swift; sourceTree = "<group>"; };
+		72100F0929B4B9DB00F40978 /* ViewControllerMyFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerMyFoto.swift; sourceTree = "<group>"; };
+		72100F0B29B4BA1800F40978 /* CollectionViewCellFotoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCellFotoUser.swift; sourceTree = "<group>"; };
+		72100F0D29B4BA2900F40978 /* VKModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKModel.swift; sourceTree = "<group>"; };
+		72100F0F29B4BCD400F40978 /* ViewControllerFotoUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerFotoUser.swift; sourceTree = "<group>"; };
 		9A601EF15FF2B9888B87FEE4 /* Pods-Integration_Social_Seti.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Integration_Social_Seti.release.xcconfig"; path = "Target Support Files/Pods-Integration_Social_Seti/Pods-Integration_Social_Seti.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,12 +83,12 @@
 			children = (
 				720E750A2922A8D4003E89AF /* AppDelegate.swift */,
 				720E750C2922A8D4003E89AF /* SceneDelegate.swift */,
+				72100F0D29B4BA2900F40978 /* VKModel.swift */,
 				720E750E2922A8D4003E89AF /* ViewController.swift */,
-				722D48A629819EF3005581B2 /* ViewControllerVK.swift */,
-				722D48A829850FB7005581B2 /* ViewControllerMyFoto.swift */,
-				722D48AA29851197005581B2 /* CollectionViewCellMyFoto.swift */,
-				722D48AC2985129D005581B2 /* ViewControllerFotoUser.swift */,
-				722D48AE298516FC005581B2 /* VKModel.swift */,
+				72100F0729B4B9B700F40978 /* ViewControllerVK.swift */,
+				72100F0F29B4BCD400F40978 /* ViewControllerFotoUser.swift */,
+				72100F0B29B4BA1800F40978 /* CollectionViewCellFotoUser.swift */,
+				72100F0929B4B9DB00F40978 /* ViewControllerMyFoto.swift */,
 				720E75102922A8D4003E89AF /* Main.storyboard */,
 				720E75132922A8D5003E89AF /* Assets.xcassets */,
 				720E75152922A8D5003E89AF /* LaunchScreen.storyboard */,
@@ -221,13 +221,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				722D48AD2985129D005581B2 /* ViewControllerFotoUser.swift in Sources */,
+				72100F0E29B4BA2900F40978 /* VKModel.swift in Sources */,
 				720E750F2922A8D4003E89AF /* ViewController.swift in Sources */,
-				722D48AF298516FC005581B2 /* VKModel.swift in Sources */,
-				722D48A729819EF3005581B2 /* ViewControllerVK.swift in Sources */,
-				722D48A929850FB7005581B2 /* ViewControllerMyFoto.swift in Sources */,
+				72100F0A29B4B9DB00F40978 /* ViewControllerMyFoto.swift in Sources */,
+				72100F0C29B4BA1800F40978 /* CollectionViewCellFotoUser.swift in Sources */,
+				72100F0829B4B9B700F40978 /* ViewControllerVK.swift in Sources */,
+				72100F1029B4BCD400F40978 /* ViewControllerFotoUser.swift in Sources */,
 				720E750B2922A8D4003E89AF /* AppDelegate.swift in Sources */,
-				722D48AB29851197005581B2 /* CollectionViewCellMyFoto.swift in Sources */,
 				720E750D2922A8D4003E89AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidAppear(true)
         if auth {
             showApp()
-            print("выполнено открытие экрана добавления фото")
+            print("выполнено открытие экрана загрузки фото")
         }
     }
     
@@ -52,7 +52,7 @@ print("токен получили записали")
                     self.auth = true
                     print("ВХОД ВЫПОЛНЕН")
             } else {
-                print("ОШИБКА ")
+                print("ОШИБКА")
                 print("\(String(describing: result.error))")
             }
         }
@@ -62,7 +62,7 @@ print("токен получили записали")
             let newVC = storyboard.instantiateViewController(withIdentifier: "ViewControllerVK") as! ViewControllerVK
             present(newVC, animated: true, completion: nil)
             newVC.userToken = self.user.userToken
-            print("закрыли сафари открыли экран для добавления фото")
+            print("закрыли сафари открыли экран для выбора фото")
         }
         
         func vkSdkUserAuthorizationFailed() {

@@ -41,22 +41,6 @@
             </objects>
             <point key="canvasLocation" x="83" y="4"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="92R-eg-BeN">
-            <objects>
-                <navigationController id="9Ur-Ev-aan" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="psd-6I-5V7">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="frs-G5-OGs" kind="relationship" relationship="rootViewController" id="YM5-H5-JsI"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3fc-IH-K7Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1071" y="10"/>
-        </scene>
         <!--View ControllerVK-->
         <scene sceneID="F1C-eq-fH1">
             <objects>
@@ -66,13 +50,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InY-Xm-Fwe">
-                                <rect key="frame" x="134.66666666666666" y="131" width="123.66666666666666" height="35"/>
+                                <rect key="frame" x="134.66666666666666" y="87" width="123.66666666666666" height="35"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Выйти из VK"/>
                                 <connections>
-                                    <action selector="exitVKButton:" destination="frs-G5-OGs" eventType="touchUpInside" id="vWl-5W-A8k"/>
+                                    <action selector="exitButton:" destination="frs-G5-OGs" eventType="touchUpInside" id="zFi-8n-6h7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAx-sd-yGh">
@@ -82,7 +66,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="загрузить фото"/>
                                 <connections>
-                                    <action selector="loadMayImageTheVKButton:" destination="frs-G5-OGs" eventType="touchUpInside" id="qXU-YP-7bT"/>
+                                    <action selector="loadImageButton:" destination="frs-G5-OGs" eventType="touchUpInside" id="qLw-0z-b8G"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -103,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="1883.206106870229" y="9.8591549295774659"/>
         </scene>
-        <!--View Controller My Foto-->
+        <!--View Controller Foto User-->
         <scene sceneID="D8k-1M-3Tj">
             <objects>
-                <viewController storyboardIdentifier="ViewControllerMyFoto" id="2xi-NF-Wne" customClass="ViewControllerMyFoto" customModule="Integration_Social_Seti" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllerFotoUser" id="2xi-NF-Wne" customClass="ViewControllerFotoUser" customModule="Integration_Social_Seti" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Qs-1g-Seu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +105,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="B40-oD-LqP" customClass="CollectionViewCellMyFoto" customModule="Integration_Social_Seti" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="B40-oD-LqP" customClass="CollectionViewCellFotoUser" customModule="Integration_Social_Seti" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="X3m-ta-ujx">
@@ -140,7 +124,7 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <connections>
-                                            <outlet property="myImageView" destination="Atr-dw-lRS" id="Xv0-fx-0Tr"/>
+                                            <outlet property="myImageView" destination="Atr-dw-lRS" id="nwX-55-qTd"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -164,10 +148,10 @@
             </objects>
             <point key="canvasLocation" x="2854" y="10"/>
         </scene>
-        <!--View Controller Foto User-->
+        <!--View Controller My Foto-->
         <scene sceneID="TRm-EY-bm2">
             <objects>
-                <viewController storyboardIdentifier="ViewControllerFotoUser" id="GZM-jf-rCX" customClass="ViewControllerFotoUser" customModule="Integration_Social_Seti" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewControllerMyFoto" id="GZM-jf-rCX" customClass="ViewControllerMyFoto" customModule="Integration_Social_Seti" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tld-h2-sLz">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,7 +164,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Выход"/>
                                 <connections>
-                                    <action selector="exitButton:" destination="GZM-jf-rCX" eventType="touchUpInside" id="h3S-r8-p0b"/>
+                                    <action selector="exit:" destination="GZM-jf-rCX" eventType="touchUpInside" id="Fn3-Kz-pqF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -197,7 +181,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="userImageView" destination="9ia-EB-PJ6" id="Drr-un-0oz"/>
+                        <outlet property="userImageView" destination="9ia-EB-PJ6" id="q4r-0u-1GZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d4r-Dx-Zvh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
